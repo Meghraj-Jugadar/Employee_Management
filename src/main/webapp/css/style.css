@@ -1,0 +1,188 @@
+@charset "ISO-8859-1";
+
+/* Styling for the navigation bar */
+.navbar {
+	overflow: hidden;
+	background-color: rgb(255, 128, 0);
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+
+
+/* Register Page CSS */
+
+/* Styling for the form */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 600px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group a.button {
+	width: 100%;
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	text-decoration: none;
+	/* Remove underline */
+}
+
+
+.form-group input[type="submit"],
+.form-group a.button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.form-group input[type="submit"]:hover,
+.form-group a.button:hover {
+	background-color: #555;
+}
+
+.form-group a.button {
+	font-size: 14px;
+}
+
+
+.container {
+	display: flex;
+}
+
+.left-side {
+	width: 30%;
+	/* Adjust as needed */
+	padding: 20px;
+	color: white;
+	/* Text color for left side */
+}
+
+.right-side {
+	width: 70%;
+	/* Adjust as needed */
+	padding: 20px;
+}
+
+/* Styles for form elements */
+.form-group {
+	margin-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+/* About */
+.container1 {
+	max-width: 600px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*  Log In */
+.container2 {
+	max-width: 400px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*  Table  */
+/* Styles for the table */
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 20px auto;
+}
+
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+tr:nth-child(odd) {
+	background-color: rgb(128, 128, 128);
+}
+/* Button styles */
+.buttonD,
+.buttonU {
+	display: inline-block;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #333;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+	margin-right: 5px;
+}
+
+.buttonD:hover,
+.buttonU:hover {
+	background-color: #555;
+}
